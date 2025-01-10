@@ -1,0 +1,18 @@
+   {
+     "type": "module",
+     "scripts": {
+       "build": "tsc",
+       "start": "node src/index.js"
+     },
+     "compilerOptions": {
+       "target": "es6",
+       "module": "esnext",
+       "allowSyntheticDefaultImports": true,
+       "rootDir": "./src",
+       "outDir": "./dist",
+       "allowImportingTsExtensions": true,
+       "noEmit": true
+     },
+     "include": ["src/**/*"],
+     "exclude": ["node_modules"]
+   }
